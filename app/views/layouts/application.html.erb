@@ -9,7 +9,19 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
-</html>
+
+    <body>
+      <div id="wrap">
+        <header>
+          <ul>
+          </ul>
+        </header>
+        <div id="contents">
+          <%= yield %>
+        </div>
+          <footer>
+            <p>Tunagari</p>
+          </footer>
+        </div>
+    </body>
+  </html>
